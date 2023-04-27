@@ -9,7 +9,6 @@ export default function Navbar() {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            console.log(window.scrollY)
             if (window.scrollY > 100) {
                 document.querySelector('.navbar_category_container').classList.add('fixed-top')
             } else {
@@ -38,8 +37,8 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="navbar_category_container">
-                <Link to="/nouveautes" className='link'><div className="navbar_category_item">Nouveautés</div></Link>
-                <Link to="/pret-a-porter" className='link'><div className="navbar_category_item">Pret à porté</div></Link>
+                <Link to="/jupes" className='link'><div className="navbar_category_item">Jupes</div></Link>
+                <Link to="/shorts" className='link'><div className="navbar_category_item">Shorts</div></Link>
                 <Link to="/hauts" className='link'><div className="navbar_category_item">Hauts</div></Link>
                 <Link to="/robes" className='link'><div className="navbar_category_item">Robes</div></Link>
                 <Link to="/pantalons" className='link'><div className="navbar_category_item">Pantalons</div></Link>

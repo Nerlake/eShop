@@ -22,7 +22,8 @@
 .trends_image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* transform: translateY(50px); */
+    object-fit: contain;
 }
 
 .itemcard_infos{

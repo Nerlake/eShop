@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
+import { itemsList } from '../../data/itemsList'
 
 import './productpage.css'
 import ImageProduit from '../../assets/items/tenue1.jpg'
+import { useParams } from 'react-router-dom'
 
 export default function ProductPage() {
+
+    const productId = useParams();
+    const currentItem = itemsList.find(item => item.id === parseInt(productId.id));
+
     return (
         <>
             <Navbar />
@@ -13,15 +19,15 @@ export default function ProductPage() {
                 <div className="productpage_container">
                     <div className="productpage_left">
                         <div className="productpage_image_container">
-                            <img src={ImageProduit} className="productpage_image" alt="produit" />
+                            <img src={currentItem?.img} className="productpage_image" alt="produit" />
                         </div>
                     </div>
                     <div className="productpage_right">
                         <div className="productpage_info">
-                            <p className="productpage_category">Robes</p>
-                            <h1 className="productpage_name">Robe de soirée collection T-BO</h1>
-                            <p className="productpage_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea libero nesciunt molestiae ipsam nobis dolorem amet non delectus odio, incidunt consequuntur accusamus in velit, iure minus doloribus distinctio dolore minima quos! Commodi consectetur asperiores earum quia omnis ratione harum quod ab eligendi maxime quis vel voluptate, illum quisquam magni dicta fugiat. Esse consequatur nam quae beatae asperiores doloremque nulla odit.</p>
-                            <p className="productpage_price">100€</p>
+                            <p className="productpage_category">{currentItem?.category.toUpperCase()}</p>
+                            <h1 className="productpage_name">{currentItem?.title}</h1>
+                            <p className="productpage_description">{currentItem?.desc}</p>
+                            <p className="productpage_price">{currentItem?.price}€</p>
                         </div>
                         <hr />
                         <div className="productpage_sizeguide">
