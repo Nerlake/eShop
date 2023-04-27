@@ -1,0 +1,21 @@
+.accueil{
+    width: 100vw;
+    padding: 50px;
+}
+
+.accueil_container {
+    width: 100%;
+}
+
+.accueil_background{
+    width: 100%;
+    height: 300px;
+    background-color: azure;
+    overflow: hidden;
+}
+
+.accueil_image{
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(-10px);
+}

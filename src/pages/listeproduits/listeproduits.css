@@ -1,0 +1,29 @@
+
+
+
+.listeproduits{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.listeproduit_filter_container{
+
+}
+
+
+.listeproduit_filter_container:hover{
+    cursor: pointer;
+    background-color: rgb(227, 227, 227);
+}
+
+
+.listeproduit_wrapper{
+    display: flex;
+        padding: 10px;
+        flex-direction: column;
+}
