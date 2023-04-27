@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/eShop/static/css/main.4910e703.css",
+    "main.js": "/eShop/static/js/main.2488a315.js",
+    "static/media/test_5.png": "/eShop/static/media/test_5.bb3661e0977d8d6b7f85.png",
+    "static/media/test_8.png": "/eShop/static/media/test_8.b7a9fd46da886c930948.png",
+    "static/media/test_9.png": "/eShop/static/media/test_9.686074d637415e5865bb.png",
+    "static/media/test_10.png": "/eShop/static/media/test_10.b5d41a64bd3eee58e3c6.png",
+    "static/media/test_18.png": "/eShop/static/media/test_18.91a8edc7686d1c4df46d.png",
+    "static/media/test_13.png": "/eShop/static/media/test_13.2cb9d37e0266e64da13a.png",
+    "static/media/test_19.png": "/eShop/static/media/test_19.72f4779b4262dff56bf7.png",
+    "static/media/test_20.png": "/eShop/static/media/test_20.70e46af8094d977b30de.png",
+    "static/media/test_1.png": "/eShop/static/media/test_1.e7ebf842e5b304a925b2.png",
+    "static/media/test_11.png": "/eShop/static/media/test_11.f345ce95031f42792f18.png",
+    "static/media/test_4.png": "/eShop/static/media/test_4.c06b70e52bd97f27ba28.png",
+    "static/media/test_7.png": "/eShop/static/media/test_7.ed36522e34f7d9a7f606.png",
+    "static/media/test_14.png": "/eShop/static/media/test_14.6113425a3b2c4164a0f3.png",
+    "static/media/test_17.png": "/eShop/static/media/test_17.5393e823d7263221e02e.png",
+    "static/media/test_3.png": "/eShop/static/media/test_3.5de205c7fd79dae80a55.png",
+    "static/media/test_16.png": "/eShop/static/media/test_16.e6eef31ea4790040c782.png",
+    "static/media/test_15.png": "/eShop/static/media/test_15.2bfc749e4d5eadc2df96.png",
+    "static/media/test_2.png": "/eShop/static/media/test_2.27a346379408fc957502.png",
+    "static/media/test_6.png": "/eShop/static/media/test_6.f21e1c5d7002338dbecb.png",
+    "static/media/test_12.png": "/eShop/static/media/test_12.272ba8f9053b2a24404d.png",
+    "static/media/background.jpg": "/eShop/static/media/background.12f36cfdd494d48b28dc.jpg",
+    "static/media/tenue1.jpg": "/eShop/static/media/tenue1.d6abf4391c09322efa55.jpg",
+    "static/media/logo.png": "/eShop/static/media/logo.9219fed41e62d166e80d.png",
+    "index.html": "/eShop/index.html",
+    "main.4910e703.css.map": "/eShop/static/css/main.4910e703.css.map",
+    "main.2488a315.js.map": "/eShop/static/js/main.2488a315.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4910e703.css",
+    "static/js/main.2488a315.js"
+  ]
+}
