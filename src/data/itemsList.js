@@ -1,118 +1,65 @@
-import img1 from "../assets/items/test_1.png";
-import img2 from "../assets/items/test_2.png";
-import img3 from "../assets/items/test_3.png";
-import img4 from "../assets/items/test_4.png";
-import img5 from "../assets/items/test_5.png";
-import img6 from "../assets/items/test_6.png";
-import img7 from "../assets/items/test_7.png";
-import img8 from "../assets/items/test_8.png";
-import img9 from "../assets/items/test_9.png";
-import img10 from "../assets/items/test_10.png";
-import img11 from "../assets/items/test_11.png";
-import img12 from "../assets/items/test_12.png";
-import img13 from "../assets/items/test_13.png";
-import img14 from "../assets/items/test_14.png";
-import img15 from "../assets/items/test_15.png";
-import img16 from "../assets/items/test_16.png";
-import img17 from "../assets/items/test_17.png";
-import img18 from "../assets/items/test_18.png";
-import img19 from "../assets/items/test_19.png";
-import img20 from "../assets/items/test_20.png";
+import img1 from "../assets/items/test_1.webp";
+import img2 from "../assets/items/test_2.webp";
+import img3 from "../assets/items/test_3.webp";
+import img4 from "../assets/items/test_4.webp";
+import img5 from "../assets/items/test_5.webp";
+import img6 from "../assets/items/test_6.webp";
+import img7 from "../assets/items/test_7.webp";
+import img8 from "../assets/items/test_8.webp";
+import img9 from "../assets/items/test_9.webp";
+import img10 from "../assets/items/test_10.webp";
+import img11 from "../assets/items/test_11.webp";
+import img12 from "../assets/items/test_12.webp";
+import img13 from "../assets/items/test_13.webp";
+import img14 from "../assets/items/test_14.webp";
+import img15 from "../assets/items/test_15.webp";
+import img16 from "../assets/items/test_16.webp";
+import img17 from "../assets/items/test_17.webp";
+import img18 from "../assets/items/test_18.webp";
+import img19 from "../assets/items/test_19.webp";
+import img20 from "../assets/items/test_20.webp";
+import item1 from "../assets/items/item.webp";
+import item2 from "../assets/items/item2.webp";
+import item3 from "../assets/items/item3.webp";
+import item4 from "../assets/items/item4.webp";
+import item5 from "../assets/items/item5.webp";
+import item6 from "../assets/items/item6.webp";
+import item7 from "../assets/items/item7.webp";
+import item8 from "../assets/items/item8.webp";
+import item9 from "../assets/items/item9.webp";
+import item10 from "../assets/items/item10.webp";
+import item11 from "../assets/items/item11.webp";
+import item12 from "../assets/items/item12.webp";
+import item13 from "../assets/items/item13.webp";
+import item14 from "../assets/items/item14.webp";
+import item15 from "../assets/items/item15.webp";
+import item16 from "../assets/items/item16.webp";
+import item17 from "../assets/items/item17.webp";
+import item18 from "../assets/items/item18.webp";
+import item19 from "../assets/items/item19.webp";
+import item20 from "../assets/items/item20.webp";
+import item21 from "../assets/items/item21.webp";
+import item22 from "../assets/items/item22.webp";
+import item23 from "../assets/items/item23.webp";
+import item24 from "../assets/items/item24.webp";
+import item25 from "../assets/items/item25.webp";
+import item26 from "../assets/items/item26.webp";
+import item27 from "../assets/items/item27.webp";
+import item28 from "../assets/items/item28.webp";
+import item29 from "../assets/items/item29.webp";
+import item30 from "../assets/items/item30.webp";
+import item31 from "../assets/items/item31.webp";
+
+
+
 
 export const itemsList = [
     {
-        id: 1,
-        title: "Alpha",
-        category: "jupes",
-        price: 15.99,
-        img: img1,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 4,
-    },
-    //créer moi 5 jupes differentes
-    {
-        id: 2,
-        title: "Beta",
-        category: "jupes",
+        id: 21,
+        title: "Valentin",
+        category: "hauts",
         price: 13.99,
-        img: img2,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 3,
-    },
-    {
-        id: 3,
-        title: "Charlie",
-        category: "jupes",
-        price: 13.99,
-        img: img3,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 5,
-    },
-    {
-        id: 4,
-        title: "Delta",
-        category: "jupes",
-        price: 13.99,
-        img: img4,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 2,
-    },
-    {
-        id: 5,
-        title: "Epsilon",
-        category: "jupes",
-        price: 13.99,
-        img: img5,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 1,
-    },
-    //créer moi 5 shorts differentes
-    {
-        id: 6,
-        title: "Zeta",
-        category: "shorts",
-        price: 13.99,
-        img: img6,
+        img: [item1, img1],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -125,11 +72,11 @@ export const itemsList = [
         rate: 4,
     },
     {
-        id: 7,
-        title: "Eta",
-        category: "shorts",
+        id: 22,
+        title: "William",
+        category: "jupes",
         price: 13.99,
-        img: img7,
+        img: [item2, img1],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -142,79 +89,11 @@ export const itemsList = [
         rate: 3,
     },
     {
-        id: 8,
-        title: "Theta",
-        category: "shorts",
-        price: 13.99,
-        img: img8,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 5,
-    },
-    {
-        id: 9,
-        title: "Iota",
-        category: "shorts",
-        price: 13.99,
-        img: img9,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 2,
-    },
-    {
-        id: 10,
-        title: "Kappa",
-        category: "shorts",
-        price: 13.99,
-        img: img10,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 1,
-    },
-    {
-        id: 11,
-        title: "Loic",
-        category: "hauts",
-        price: 53.99,
-        img: img11,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 4,
-    },
-    {
-        id: 12,
-        title: "Mickael",
+        id: 23,
+        title: "Xavier",
         category: "hauts",
         price: 13.99,
-        img: img12,
+        img: [item3, img2],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -227,11 +106,11 @@ export const itemsList = [
         rate: 3,
     },
     {
-        id: 13,
-        title: "Nicolas",
-        category: "hauts",
+        id: 24,
+        title: "Yann",
+        category: "jupes",
         price: 13.99,
-        img: img13,
+        img: [item4, img2],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -241,14 +120,14 @@ export const itemsList = [
             xl: 0,
         },
         color: ["black", "white", "red", "blue", "yellow"],
-        rate: 5,
+        rate: 3,
     },
     {
-        id: 14,
-        title: "Olivier",
+        id: 25,
+        title: "Zoé",
         category: "hauts",
         price: 13.99,
-        img: img14,
+        img: [item5, img3],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -258,14 +137,14 @@ export const itemsList = [
             xl: 0,
         },
         color: ["black", "white", "red", "blue", "yellow"],
-        rate: 2,
+        rate: 3,
     },
     {
-        id: 15,
-        title: "Pierre",
-        category: "hauts",
+        id: 26,
+        title: "Aurélie",
+        category: "pantalons",
         price: 13.99,
-        img: img15,
+        img: [item6, img3],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -275,31 +154,269 @@ export const itemsList = [
             xl: 0,
         },
         color: ["black", "white", "red", "blue", "yellow"],
-        rate: 1,
+        rate: 3,
     },
     {
-        id: 16,
+        id: 27,
+        title: "Baptiste",
+        category: "hauts",
+        price: 13.99,
+        img: [item7, img4],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 28,
+        title: "Céline",
+        category: "jupes",
+        price: 13.99,
+        img: [item8, img4],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 29,
+        title: "Dylan",
+        category: "hauts",
+        price: 13.99,
+        img: [item9, img5],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 30,
+        title: "Elsa",
+        category: "jupes",
+        price: 13.99,
+        img: [item10, img5],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 31,
+        title: "Fabien",
+        category: "hauts",
+        price: 13.99,
+        img: [item11, img6],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 32,
+        title: "Géraldine",
+        category: "jupes",
+        price: 13.99,
+        img: [item12, img6],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 33,
+        title: "Hugo",
+        category: "hauts",
+        price: 13.99,
+        img: [item13, img7],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 34,
+        title: "Inès",
+        category: "jupes",
+        price: 13.99,
+        img: [item14, img7],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 35,
+        title: "Julien",
+        category: "hauts",
+        price: 13.99,
+        img: [item15, img8],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 36,
+        title: "Karine",
+        category: "pantalons",
+        price: 13.99,
+        img: [item16, img8],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 37,
+        title: "Léo",
+        category: "hauts",
+        price: 13.99,
+        img: [item17, img9],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 38,
+        title: "Marie",
+        category: "jupes",
+        price: 13.99,
+        img: [item18, img9],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 39,
+        title: "Nathan",
+        category: "hauts",
+        price: 13.99,
+        img: [item19, img10],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 40,
+        title: "Océane",
+        category: "shorts",
+        price: 13.99,
+        img: [item20, img10],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 41,
+        title: "Paul",
+        category: "hauts",
+        price: 13.99,
+        img: [item21, img11],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 42,
         title: "Quentin",
-        category: "pantalons",
+        category: "shorts",
         price: 13.99,
-        img: img16,
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
-        size: {
-            xs: 0,
-            s: 0,
-            m: 0,
-            l: 0,
-            xl: 0,
-        },
-        color: ["black", "white", "red", "blue", "yellow"],
-        rate: 4,
-    },
-    {
-        id: 17,
-        title: "Romain",
-        category: "pantalons",
-        price: 13.99,
-        img: img17,
+        img: [item22, img11],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -312,11 +429,11 @@ export const itemsList = [
         rate: 3,
     },
     {
-        id: 18,
-        title: "Sylvain",
-        category: "robes",
+        id: 43,
+        title: "Romain",
+        category: "hauts",
         price: 13.99,
-        img: img18,
+        img: [item23, img12],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -326,14 +443,14 @@ export const itemsList = [
             xl: 0,
         },
         color: ["black", "white", "red", "blue", "yellow"],
-        rate: 5,
+        rate: 3,
     },
     {
-        id: 19,
-        title: "Thibault",
-        category: "robes",
+        id: 44,
+        title: "Sylvie",
+        category: "hauts",
         price: 13.99,
-        img: img19,
+        img: [item24, img14],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -343,14 +460,31 @@ export const itemsList = [
             xl: 0,
         },
         color: ["black", "white", "red", "blue", "yellow"],
-        rate: 2,
+        rate: 3,
     },
     {
-        id: 20,
+        id: 45,
+        title: "Théo",
+        category: "pantalons",
+        price: 13.99,
+        img: [item25, img14],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 46,
         title: "Ugo",
-        category: "robes",
+        category: "hauts",
         price: 13.99,
-        img: img20,
+        img: [item26, img15],
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
         size: {
             xs: 0,
@@ -360,6 +494,165 @@ export const itemsList = [
             xl: 0,
         },
         color: ["black", "white", "red", "blue", "yellow"],
-        rate: 1,
+        rate: 3,
     },
+
+    {
+        id: 47,
+        title: "Valentin",
+        category: "hauts",
+        price: 13.99,
+        img: [item28, img17],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 48,
+        title: "Willy",
+        category: "jupes",
+        price: 13.99,
+        img: [item29, img17],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 49,
+        title: "Xavier",
+        category: "hauts",
+        price: 13.99,
+        img: [item30, img20],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 50,
+        title: "Yann",
+        category: "jupes",
+        price: 13.99,
+        img: [item31, img20],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 51,
+        title: "Zoé",
+        category: "robes",
+        price: 13.99,
+        img: [img13],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 52,
+        title: "Amandine",
+        category: "robes",
+        price: 13.99,
+        img: [img16],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 53,
+        title: "Baptiste",
+        category: "robes",
+        price: 13.99,
+        img: [img18],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 54,
+        title: "Céline",
+        category: "robes",
+        price: 13.99,
+        img: [img19],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+    {
+        id: 55,
+        title: "Dylan",
+        category: "jupes",
+        price: 13.99,
+        img: [item27, img15],
+        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.`,
+        size: {
+            xs: 0,
+            s: 0,
+            m: 0,
+            l: 0,
+            xl: 0,
+        },
+        color: ["black", "white", "red", "blue", "yellow"],
+        rate: 3,
+    },
+
+
+
+
+
 ]

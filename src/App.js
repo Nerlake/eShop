@@ -4,14 +4,16 @@ import './App.css';
 import Accueil from './pages/accueil/Accueil'
 import ListeProduits from './pages/listeproduits/ListeProduits';
 import ProductPage from './pages/productpage/ProductPage';
+import Apropos from './pages/apropos/Apropos';
+import Contact from './pages/contact/Contact';
 
 function App() {
 
   const router = createBrowserRouter([
     { path: '/', element: <Accueil /> },
     { path: '/boutique', element: <ListeProduits title="Boutique" /> },
-    { path: '/contact', element: <div>error404</div> },
-    { path: '/a-propos-de-moi', element: <div>error404</div> },
+    { path: '/contact', element: <Contact /> },
+    { path: '/a-propos-de-moi', element: <Apropos /> },
     { path: '/panier', element: <div> error404</div> },
     { path: '/produit/:id', element: <ProductPage /> },
     { path: '/login', element: <div>error404</div> },

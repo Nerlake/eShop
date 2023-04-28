@@ -4,8 +4,8 @@ import Navbar from '../../components/Navbar/Navbar'
 import { itemsList } from '../../data/itemsList'
 
 import './productpage.css'
-import ImageProduit from '../../assets/items/tenue1.jpg'
 import { useParams } from 'react-router-dom'
+import Galery from '../../components/gallery/Galery'
 
 export default function ProductPage() {
 
@@ -18,14 +18,16 @@ export default function ProductPage() {
             <div className="productpage">
                 <div className="productpage_container">
                     <div className="productpage_left">
-                        <div className="productpage_image_container">
+                        {/* <div className="productpage_image_container">
                             <img src={currentItem?.img} className="productpage_image" alt="produit" />
-                        </div>
+                        </div> */}
+                        <Galery photos={currentItem?.img} />
                     </div>
                     <div className="productpage_right">
                         <div className="productpage_info">
                             <p className="productpage_category">{currentItem?.category.toUpperCase()}</p>
                             <h1 className="productpage_name">{currentItem?.title}</h1>
+                            {'⭐'.repeat(currentItem?.rate)}
                             <p className="productpage_description">{currentItem?.desc}</p>
                             <p className="productpage_price">{currentItem?.price}€</p>
                         </div>
