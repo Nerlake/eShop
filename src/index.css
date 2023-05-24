@@ -45,3 +45,8 @@ h2{
     color: black !important;
     opacity: 0.6 !important;
 }
+
+html,
+body {
+    height: 100%;
+}

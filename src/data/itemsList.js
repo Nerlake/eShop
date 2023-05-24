@@ -70,6 +70,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 4,
+        defaultValue: 1,
     },
     {
         id: 22,
@@ -87,6 +88,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 23,
@@ -104,6 +107,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 24,
@@ -121,6 +126,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 25,
@@ -138,6 +145,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 26,
@@ -155,6 +164,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 27,
@@ -172,6 +183,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 28,
@@ -189,6 +202,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 29,
@@ -206,6 +221,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 30,
@@ -223,6 +240,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 31,
@@ -240,6 +259,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 32,
@@ -257,6 +278,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 33,
@@ -274,6 +297,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 34,
@@ -291,6 +316,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 35,
@@ -308,6 +335,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 36,
@@ -325,6 +354,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 37,
@@ -342,6 +373,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 38,
@@ -359,6 +392,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 39,
@@ -376,6 +411,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 40,
@@ -393,6 +430,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 41,
@@ -410,6 +449,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 42,
@@ -427,6 +468,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 43,
@@ -444,6 +487,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 44,
@@ -461,6 +506,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+        defaultValue: 1,
     },
     {
         id: 45,
@@ -478,6 +525,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
     {
         id: 46,
@@ -495,6 +543,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
 
     {
@@ -513,6 +562,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
     {
         id: 48,
@@ -530,6 +580,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
     {
         id: 49,
@@ -547,6 +598,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
     {
         id: 50,
@@ -564,6 +616,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
     {
         id: 51,
@@ -581,6 +634,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
     {
         id: 52,
@@ -598,6 +652,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
     {
         id: 53,
@@ -615,6 +670,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
     {
         id: 54,
@@ -632,6 +688,7 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
     },
     {
         id: 55,
@@ -649,6 +706,8 @@ export const itemsList = [
         },
         color: ["black", "white", "red", "blue", "yellow"],
         rate: 3,
+        defaultValue: 1,
+
     },
 
 

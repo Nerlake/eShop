@@ -6,11 +6,17 @@ import { itemsList } from '../../data/itemsList'
 import './productpage.css'
 import { useParams } from 'react-router-dom'
 import Galery from '../../components/gallery/Galery'
+import { AddShoppingCart } from '@mui/icons-material'
+import { useDispatch, useSelector } from 'react-redux'
+import { addToBasket } from '../../redux/basketSlice'
 
 export default function ProductPage() {
 
     const productId = useParams();
     const currentItem = itemsList.find(item => item.id === parseInt(productId.id));
+
+    const count = useSelector((state) => state.basket.value)
+    const dispatch = useDispatch()
 
     return (
         <>
@@ -53,10 +59,10 @@ export default function ProductPage() {
                                 <div className="productpage_color_item">
                                     <div className="productpage_color_item_title">Couleurs</div>
                                     <div className="productpage_color_item_value_container">
-                                        <div className="productpage_color_item_value" id='red'></div>
-                                        <div className="productpage_color_item_value" id='blue'></div>
-                                        <div className="productpage_color_item_value productpage_color_item_value_selected" id='black'></div>
-                                        <div className="productpage_color_item_value productpage_color_item_value_indisponible" id='white'></div>
+                                        <div className="productpage_color_item_value" id='black'></div>
+                                        <div className="productpage_color_item_value" id='white'></div>
+                                        <div className="productpage_color_item_value productpage_color_item_value_selected" id='rose'></div>
+                                        <div className="productpage_color_item_value productpage_color_item_value_indisponible" id='brun'></div>
                                         <div className="productpage_color_item_value" id='green'></div>
                                     </div>
                                 </div>
@@ -75,6 +81,10 @@ export default function ProductPage() {
                                 </div>
                             </div>
                         </div>
+                        <div className="product_page_addtocart_container">
+                            <button className="productpage_addtocart" onClick={() => dispatch(addToBasket(currentItem))}>Ajouter au panier<AddShoppingCart /></button>
+                        </div>
+
                     </div>
 
                 </div>

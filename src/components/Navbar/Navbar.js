@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./navbar.css"
 import logo from '../../assets/logo_rm.png'
 import { Menu, Person, Search, ShoppingCart } from '@mui/icons-material'
 import { Link } from 'react-router-dom'
+import Basket from '../basket/Basket'
 
 export default function Navbar({ light = false }) {
 
@@ -16,6 +17,8 @@ export default function Navbar({ light = false }) {
             }
         })
     }, [light])
+
+    const [isBasketOpen, setIsBasketOpen] = useState(false)
 
 
 
@@ -32,7 +35,7 @@ export default function Navbar({ light = false }) {
                 </div>
                 <div className='navbar_menu_droit'>
                     <div className="navbar_menu_item"><Search /></div>
-                    <div className="navbar_menu_item"><ShoppingCart /></div>
+                    <div className="navbar_menu_item" onClick={() => setIsBasketOpen(true)}><ShoppingCart /></div>
                     <div className="navbar_menu_item"><Person /></div>
                     <div className='navbar_menu_item' id='hmbg_item'><Menu /></div>
                 </div>
@@ -46,6 +49,7 @@ export default function Navbar({ light = false }) {
                     <Link to="/pantalons" className='link'><div className="navbar_category_item">Pantalons</div></Link>
                 </div>
             )}
+            <Basket open={isBasketOpen} setOpen={setIsBasketOpen} />
         </div>
     )
 }
